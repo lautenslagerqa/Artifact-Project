@@ -1,0 +1,422 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Markdown Formatting Guide</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+                background-color: #f4f4f4;
+            }
+
+            header {
+                background: #666;
+                color: #fff;
+                padding: 1rem;
+                text-align: center;
+            }
+
+            nav {
+                background: #666;
+                padding: 0.5rem;
+                text-align: center;
+            }
+
+            nav a {
+                color: white;
+                margin: 0 15px;
+                text-decoration: none;
+                cursor: pointer;
+            }
+
+            .container {
+                width: 80%;
+                margin: 20px auto;
+                background: white;
+                padding: 20px;
+                border-radius: 8px;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            }
+
+            .step {
+                display: none;
+                margin-bottom: 20px;
+                padding: 10px;
+                border-left: 4px solid #666;
+            }
+
+            .sidebar {
+                float: right;
+                width: 25%;
+                background: #eee;
+                padding: 15px;
+                border-radius: 8px;
+            }
+
+            .footer {
+                text-align: center;
+                padding: 1rem;
+                background: #333;
+                color: white;
+                margin-top: 20px;
+            }
+
+            .footer li a:hover,
+            .nav li a:hover {
+                color: #01447e;
+                text-decoration: underline;
+            }
+
+            #home {
+                display: block;
+            }
+
+            #trblsht a {
+                color: black;
+                text-decoration: none;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>NES Controller</h1>
+        </header>
+
+        <nav class="nav">
+            <a onclick="show('home')">Home</a>
+            <a onclick="show('usrgd')">User Guide</a>
+            <a onclick="show('faqs')">FAQs</a>
+            <a onclick="show('trblsht')">Troubleshooting</a>
+            <a onclick="show('cntct')">Contact Information</a>
+        </nav>
+
+        <div class="container">
+
+            <div class="step" id="home">
+                <h1>Home</h1>
+                <h3>Introduction to the NES Controller</h3>
+                <img
+                    src="https://upload.wikimedia.org/wikipedia/commons/b/b5/Nintendo-Entertainment-System-NES-Controller-FL.jpg"
+                    alt="Image from wikipedia commons"
+                    style="float: right; width: 420px; height: 305px;"
+                />
+                <p>
+                    Created in 1978, it took the world by storm becoming the most
+                    widely-known controller in Nintendo History. Using a simple
+                    design with a d-pad and four buttons it helped the controller
+                    become widely successful with the public. It's use with the
+                    incredibly popular Nintendo Entertainment System (NES)
+                    brought it to become easily recognizable with pop culture
+                    and in the gaming community as a whole.
+                </p>
+
+                <h3>The Purpose</h3>
+                <p>
+                    The main purpose of the NES controller is to provide a
+                    simple and easy to learn controller for the NES platform.
+                    With just a d-pad and four other buttons it is simple for
+                    newcomers to gaming when household videos games became
+                    mainstream.
+                </p>
+
+                <h3>The Design</h3>
+                <p>
+                    The layout of the NES Controller is iconic in the gaming
+                    community. With the D-pad on the left side, start and select
+                    button in the middle, and two round buttons on the right it
+                    became a simple and easy to learn controller.
+                    <br /> The wire used to connect to the main console is a
+                    proprietary piece of hardware. It uses a 4021 IC that
+                    transmits what buttons have been pushed.
+                </p>
+            </div>
+
+            <div class="step" id="usrgd">
+                <h2>User Guide</h2>
+
+                <h3>Getting Started</h3>
+                <ol>
+                    <li>
+                        Unbox the NES controller set, ensuring both controllers
+                        are present.
+                    </li>
+                    <li>
+                        Charge the controllers by attaching them to a Nintendo
+                        Switch or Nintendo Switch – OLED Model console.
+                    </li>
+                    <li>
+                        Ensure the console is powered on and ready for
+                        gameplay.
+                    </li>
+                </ol>
+
+                <h3>Connecting the Controller</h3>
+                <ol>
+                    <li>
+                        Attach the controller to the console via the charging
+                        rail for charging.
+                    </li>
+                    <li>
+                        Once charged, detach the controller; it will connect
+                        wirelessly to the console.
+                    </li>
+                    <li>
+                        Confirm the controller is recognized in the console's
+                        controller settings.
+                    </li>
+                </ol>
+
+                <h3>Basic Controls</h3>
+                <ul>
+                    <li>
+                        <strong>D-Pad:</strong> Navigate the game selection
+                        menu or move within a game.
+                    </li>
+                    <li>
+                        <strong>A Button (Left Controller):</strong> Take a
+                        screenshot.
+                    </li>
+                    <li>
+                        <strong>Hold A Button (Left Controller):</strong> Take
+                        a video capture.
+                    </li>
+                    <li>
+                        <strong>B Button (Left Controller):</strong> Open the
+                        Suspend Menu.
+                    </li>
+                    <li>
+                        <strong>Right D-Pad:</strong> Access the HOME Menu.
+                    </li>
+                </ul>
+
+                <h3>Using with Nintendo Switch Lite</h3>
+                <ul>
+                    <li>
+                        <strong>L Button:</strong> Take a screenshot.
+                    </li>
+                    <li>
+                        <strong>Hold L Button:</strong> Take a video capture.
+                    </li>
+                    <li>
+                        <strong>R Button:</strong> Return to the HOME Menu.
+                    </li>
+                    <li>
+                        <strong>Hold R Button:</strong> Open Quick Settings
+                        Menu.
+                    </li>
+                    <li>
+                        <strong>L + R Buttons:</strong> Open Suspend Menu or
+                        quit online play (only while in a game joined as a
+                        guest).
+                    </li>
+                </ul>
+
+                <h3>Advanced Controls</h3>
+                <ul>
+                    <li>
+                        <strong>Turbo Mode:</strong> Hold the B button and
+                        quickly tap the D-Pad for rapid movement in supported
+                        games.
+                    </li>
+                    <li>
+                        <strong>Custom Button Mapping:</strong> Adjust the
+                        controller settings on your console to remap buttons
+                        according to your preferences.
+                    </li>
+                    <li>
+                        <strong>Dual Controller Usage:</strong> Certain games
+                        allow simultaneous use of both controllers for
+                        two-player modes or advanced control schemes.
+                    </li>
+                </ul>
+
+                <h3>Maintenance Tips</h3>
+                <ul>
+                    <li>
+                        Regularly clean the controller with a dry cloth; avoid
+                        using water or cleaning agents that may damage
+                        electronics.
+                    </li>
+                    <li>
+                        Store controllers in a dry, cool place to prevent wear
+                        on the buttons and cord.
+                    </li>
+                    <li>
+                        Ensure the charging port is free of dust and debris for
+                        proper charging.
+                    </li>
+                </ul>
+
+                <h3>Game-Specific Tips</h3>
+                <ul>
+                    <li>
+                        In platformer games, hold the B button to run faster
+                        and jump with more control.
+                    </li>
+                    <li>
+                        For puzzle games, use the D-Pad precisely to navigate
+                        menus and position pieces accurately.
+                    </li>
+                    <li>
+                        In multiplayer games, coordinate button usage between
+                        controllers for smooth gameplay.
+                    </li>
+                </ul>
+
+                <h3>Safety Guidelines</h3>
+                <ul>
+                    <li>
+                        Avoid excessive force on buttons or the D-Pad to
+                        prevent mechanical damage.
+                    </li>
+                    <li>Do not use the controller near liquids or in extreme temperatures.</li>
+                    <li>Take breaks during long gaming sessions to avoid fatigue or discomfort.</li>
+                </ul>
+
+                <h3>Tips for Best Use</h3>
+                <ul>
+                    <li>Keep the controller within range of the console to avoid disconnection.</li>
+                    <li>Hold the B button to run faster in games that support it.</li>
+                    <li>Use the D-Pad carefully to avoid moving in the wrong direction during gameplay.</li>
+                    <li>Regularly check battery level to ensure uninterrupted gaming sessions.</li>
+                </ul>
+            </div>
+
+            <div class="step" id="faqs">
+                <h2>FAQs</h2>
+                <h3>Has the NES controller changed at all from its original design</h3>
+                <p>
+                    While keeping the design of the original NES controller,
+                    the new controller is wireless with a rail along the top,
+                    so it can connect to a Nintendo Switch – OLED Model or
+                    Nintendo Switch console for charging.
+                </p>
+
+                <h3>Is the new NES controller the same one that was released for the NES Classic Edition?</h3>
+                <p>
+                    No, the NES Classic Edition controller is different from
+                    the NES controller designed for use with Nintendo
+                    Entertainment System - Nintendo Classics—the two are not
+                    interchangeable.
+                </p>
+
+                <h3>Can the NES controller be used with other software besides NES games?</h3>
+                <p>
+                    The NES controller is designed for use with Nintendo
+                    Entertainment System - Nintendo Classics games and is not
+                    guaranteed to work with other software.
+                </p>
+
+                <h3>How can I buy an NES controller?</h3>
+                <p>
+                    The NES controller is available only as a set of two for
+                    $59.99 (plus shipping). The controller set can be purchased
+                    by users in the U.S. and Canada with an active, paid
+                    Nintendo Switch Online membership. (Free trial users are
+                    not eligible.)
+                </p>
+
+                <h4>Is this a limited time offer?</h4>
+                <p>
+                    No, the NES controller is not a limited-time offer.
+                    However, the offer is only available once per Nintendo
+                    Account.
+                </p>
+
+                <h5>Can additional people in my family membership order their own NES controller?</h5>
+                <p>
+                    Yes. Each member of a family membership can order up to
+                    four NES controller sets, regardless of their age.
+
+                    However, this offer is only available once per Nintendo
+                    Account. For example, if someone with an individual
+                    membership orders controller sets and then joins a family
+                    membership, they will not be able to order an additional
+                    controller set.
+                </p>
+            </div>
+
+            <div class="step" id="trblsht">
+                <h2>Troubleshooting</h2>
+                <p>
+                    If your controller is not responding or is responding
+                    incorrectly to your input, the following information will
+                    help diagnose the issue.
+                </p>
+
+                <h3>Official Troubleshooting Guidelines</h3>
+                <h4>Step 1: Ensure proper connection</h4>
+                <p>Controller should be plugged into Port No. 1 on your system.</p>
+
+                <h4>Step 2: Disconnect your device</h4>
+                <p>
+                    Power off your system and disconnect your controller by
+                    pressing the tabs on the connector that goes into the
+                    console
+                </p>
+
+                <h4>Step 3: Check for physical damage</h4>
+                <p>
+                    Check for any visible damage on your controller and along
+                    the cord. <br /> If any physical damage is found,
+                    controller should be replaced. If no damage is present,
+                    continue to step 4.
+                </p>
+
+                <h4>Step 4: Reconnect controller</h4>
+                <p>
+                    Reconnect your device into Port No. 1. If your device is
+                    still not working, continue to step 5.
+                </p>
+
+                <h4>Step 5: Check another controller</h4>
+                <p>
+                    If you have another compatible controller, plug that
+                    device into Port No. 1. If the new controller is also
+                    faulty, this is indicative of an issue with the system.
+                </p>
+            </div>
+
+            <div class="step" id="cntct">
+                <h2>Conact Information</h2>
+                <p>
+                    <strong>Molly Watson</strong>: Website Development Lead.
+                    Cell: (832) 205-7066
+                </p>
+                <p>
+                    <strong>Quinn Lautenslager</strong>: Project Manager. Cell:
+                    (442) 248-7813
+                </p>
+                <p>
+                    <strong>Andy Estrada</strong>: Research Coordinator. Cell:
+                    (704) 472-1866
+                </p>
+                <p>
+                    <strong>Haben Abreha</strong>: Design Lead. Cell: (336)
+                    407-5808
+                </p>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <li onclick="show('cntct')">Contact Information</li>
+            <a>By: Andy, Haben, Molly Quinn</a>
+        </footer>
+
+        <script>
+            function show(sec) {
+                const sections = document.querySelectorAll('.step');
+                sections.forEach((section) => (section.style.display = 'none'));
+                var x = document.getElementById(sec);
+                if (x) {
+                    x.style.display = 'block';
+                }
+            }
+        </script>
+    </body>
+</html>
+
