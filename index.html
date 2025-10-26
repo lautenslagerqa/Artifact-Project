@@ -5,81 +5,7 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Markdown Formatting Guide</title>
-        <style>
-            body {
-                font-family: Arial, sans-serif;
-                margin: 0;
-                padding: 0;
-                background-color: #f4f4f4;
-            }
-
-            header {
-                background: #666;
-                color: #fff;
-                padding: 1rem;
-                text-align: center;
-            }
-
-            nav {
-                background: #666;
-                padding: 0.5rem;
-                text-align: center;
-            }
-
-            nav a {
-                color: white;
-                margin: 0 15px;
-                text-decoration: none;
-                cursor: pointer;
-            }
-
-            .container {
-                width: 80%;
-                margin: 20px auto;
-                background: white;
-                padding: 20px;
-                border-radius: 8px;
-                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            }
-
-            .step {
-                display: none;
-                margin-bottom: 20px;
-                padding: 10px;
-                border-left: 4px solid #666;
-            }
-
-            .sidebar {
-                float: right;
-                width: 25%;
-                background: #eee;
-                padding: 15px;
-                border-radius: 8px;
-            }
-
-            .footer {
-                text-align: center;
-                padding: 1rem;
-                background: #333;
-                color: white;
-                margin-top: 20px;
-            }
-
-            .footer li a:hover,
-            .nav li a:hover {
-                color: #01447e;
-                text-decoration: underline;
-            }
-
-            #home {
-                display: block;
-            }
-
-            #trblsht a {
-                color: black;
-                text-decoration: none;
-            }
-        </style>
+        <link rel="stylesheet" href="styles.css">
     </head>
     <body>
         <header>
@@ -407,16 +333,7 @@
             <a>By: Andy, Haben, Molly Quinn</a>
         </footer>
 
-        <script>
-            function show(sec) {
-                const sections = document.querySelectorAll('.step');
-                sections.forEach((section) => (section.style.display = 'none'));
-                var x = document.getElementById(sec);
-                if (x) {
-                    x.style.display = 'block';
-                }
-            }
-        </script>
+        <script src="script.js"></script>
     </body>
 </html>
 
